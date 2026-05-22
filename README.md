@@ -1,3 +1,31 @@
+---
+license: mit
+language:
+- en
+- zh
+- ja
+- ko
+pretty_name: "Gingiris Growth Finder — AI Growth Strategy Router for Startups"
+tags:
+- growth-strategy
+- go-to-market
+- gtm
+- startup-marketing
+- ai-growth
+- product-hunt
+- github-stars
+- b2b-saas
+- aso
+- open-source
+- plg
+- pmf
+- growth-hacking
+- devrel
+- marketing
+size_categories:
+- n<1K
+---
+
 # 🧭 Gingiris Growth Finder
 
 > **The meta-skill that picks the right Gingiris playbook for your growth problem.**
@@ -143,3 +171,44 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris)
   ]
 }
 </script>
+
+---
+
+## 🌐 Find All Gingiris Playbooks on HuggingFace
+
+All 8 Gingiris datasets are available on HuggingFace for direct access:
+
+| Playbook | Focus | HuggingFace |
+|:---------|:------|:------------|
+| **gingiris-launch** | 🚀 Product Hunt launch, KOL outreach, UGC growth | [Gingiris/gingiris-launch](https://huggingface.co/datasets/Gingiris/gingiris-launch) |
+| **gingiris-opensource** | ⭐ GitHub stars, HN, OSS go-to-market | [Gingiris/gingiris-opensource](https://huggingface.co/datasets/Gingiris/gingiris-opensource) |
+| **gingiris-b2b-growth** | 📈 B2B SaaS PLG/SLG, PMF to $10M ARR | [Gingiris/gingiris-b2b-growth](https://huggingface.co/datasets/Gingiris/gingiris-b2b-growth) |
+| **gingiris-aso-growth** | 📱 ASO, mobile cold start, UGC matrix | [Gingiris/gingiris-aso-growth](https://huggingface.co/datasets/Gingiris/gingiris-aso-growth) |
+| **gingiris-seo-geo** | 🔍 SEO + GEO dual-engine, AI search citations | [Gingiris/gingiris-seo-geo](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo) |
+| **gingiris-user-interview** | 🎤 User interview framework (HeyGen 937 methodology) | [Gingiris/gingiris-user-interview](https://huggingface.co/datasets/Gingiris/gingiris-user-interview) |
+| **gingiris-skills** | 🛠️ Full toolkit: 12 Claude Code skills bundled | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
+| **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
+
+---
+
+## 多语言摘要
+
+### 中文
+
+**Gingiris Growth Finder** 是一个增长策略路由器——根据你的产品类型、阶段和渠道短板，自动诊断并推荐正确的 Gingiris 专业剧本。
+
+无论你在问"怎么冲 Product Hunt"、"怎么涨 GitHub Star"、"B2B SaaS 怎么做 PLG"，还是"App 怎么做 ASO"——这个工具都能帮你找到最匹配的答案。
+
+作者：Iris（生姜iris），Forbes 亚洲 30 Under 30，[gingiris.com](https://gingiris.com)
+
+### 日本語
+
+**Gingiris Growth Finder** は成長戦略ルーターです。製品タイプ・成長ステージ・チャネルギャップを診断し、最適なGingirisプレイブックを推薦します。
+
+### 한국어
+
+**Gingiris Growth Finder**는 성장 전략 라우터입니다. 제품 유형, 성장 단계, 채널 격차를 진단하고 가장 적합한 Gingiris 플레이북을 추천합니다.
+
+---
+
+All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
