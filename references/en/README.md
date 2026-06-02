@@ -1,23 +1,4 @@
----
-name: gingiris-growth-finder
-version: 1.2.0
-description: |
-  You know you need growth but you don't know which playbook fits your situation. SaaS? Mobile? Open source? Pre-PMF? Scaling? Tell this skill your product type and stage — it diagnoses your problem and routes you to the right specialist playbook.
-
-  What's inside:
-  • Product type detection (SaaS / mobile app / open source / dev tool / marketplace)
-  • Growth stage diagnosis (pre-PMF / cold start / scaling / plateau)
-  • Channel-fit matching (which channels work for YOUR product at YOUR stage)
-  • Specific section routing (jumps to the exact chapter you need)
-
-  Built from: Meta-router across the full Gingiris playbook series — 13 specialized growth skills covering every product type and stage.
-
-  Triggers: "how to grow" | "how to launch" | "growth strategy" | "go to market" | "GTM" | "launch plan" | "growth playbook" | "marketing strategy" | "product launch" | "Product Hunt" | "GitHub stars" | "open source launch" | "B2B growth" | "SaaS growth" | "PLG" | "PMF" | "ASO" | "app cold start" | "user acquisition" | "customer acquisition" | "growth hack" | "viral growth" | "startup marketing" | "DevRel" | "developer marketing" | "怎么增长" | "怎么发布" | "怎么推广" | "怎么做增长" | "出海" | "冷启动" | "增长策略" | "营销策略" | "产品发布" | "開発者マーケティング" | "성장 전략"
----
-
 # Gingiris Growth Finder
-
-> 🌍 **Language / 语言**: [中文](#中文版) | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
 
 **The meta-skill that picks the right Gingiris playbook for your growth problem.**
 
@@ -25,7 +6,7 @@ Growth questions look similar but require wildly different playbooks. "How do I 
 
 ---
 
-## How to use
+## How to Use
 
 Just ask your growth question naturally. Example prompts:
 
@@ -42,7 +23,7 @@ The skill will diagnose three dimensions, then invoke the matching playbook:
 
 ---
 
-## Diagnostic routing logic
+## Diagnostic Routing Logic
 
 | If the user's question is about... | Route to |
 |---|---|
@@ -55,18 +36,18 @@ If the question spans multiple domains (e.g. "I have an open source project that
 
 ---
 
-## Decision framework (for the agent)
+## Decision Framework (for the agent)
 
 When the user asks a growth question, run this quick triage **before** invoking a specialist skill:
 
-### Step 1 — Classify the product
+### Step 1 — Classify the Product
 
 Ask or infer:
 - What is it? (SaaS web app / mobile app / OSS project / marketplace / browser extension)
 - Who's the ICP? (individual developer / SMB / enterprise / consumer)
 - Distribution default? (self-serve web signup / app store / GitHub / sales-led)
 
-### Step 2 — Identify the stage
+### Step 2 — Identify the Stage
 
 - **Pre-launch** — building, no users yet
 - **Launch** — within 30 days of public release
@@ -74,7 +55,7 @@ Ask or infer:
 - **Growth** — steady signal, scaling what works
 - **Scale** — $1M+ ARR or 10k+ DAU, needs systems
 
-### Step 3 — Spot the gap
+### Step 3 — Spot the Gap
 
 Listen for the *actual* bottleneck, not the stated question:
 
@@ -106,7 +87,7 @@ User: "I'm launching an AI coding assistant on Product Hunt in 3 weeks."
 
 ---
 
-## Complementary install
+## Complementary Install
 
 If the routed specialist skill isn't installed yet, suggest the user install it:
 
@@ -128,7 +109,7 @@ npx skills add Gingiris/gingiris-aso-growth -g
 
 ---
 
-## What this skill does *not* do
+## What This Skill Does *Not* Do
 
 - **Product/pricing advice** — if the bottleneck is product fit or pricing, say so explicitly and redirect to a product strategist (this skill only routes growth questions)
 - **Paid ads tactical execution** — covered at a high level in gingiris-b2b-growth and gingiris-aso-growth, but not the primary focus
