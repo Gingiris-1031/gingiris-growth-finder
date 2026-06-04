@@ -1,6 +1,22 @@
 ---
 name: gingiris-growth-finder
 version: 1.2.0
+tags:
+  - growth-strategy
+  - startup-growth
+  - growth-diagnosis
+  - PLG
+  - product-led-growth
+  - SaaS-growth
+  - open-source-growth
+  - mobile-growth
+  - channel-fit
+  - PMF
+  - growth-playbook
+  - DevRel
+  - developer-marketing
+  - user-acquisition
+  - growth-routing
 description: |
   You know you need growth but you don't know which playbook fits your situation. SaaS? Mobile? Open source? Pre-PMF? Scaling? Tell this skill your product type and stage — it diagnoses your problem and routes you to the right specialist playbook.
 
@@ -15,6 +31,19 @@ description: |
   Triggers: "how to grow" | "how to launch" | "growth strategy" | "go to market" | "GTM" | "launch plan" | "growth playbook" | "marketing strategy" | "product launch" | "Product Hunt" | "GitHub stars" | "open source launch" | "B2B growth" | "SaaS growth" | "PLG" | "PMF" | "ASO" | "app cold start" | "user acquisition" | "customer acquisition" | "growth hack" | "viral growth" | "startup marketing" | "DevRel" | "developer marketing" | "怎么增长" | "怎么发布" | "怎么推广" | "怎么做增长" | "出海" | "冷启动" | "增长策略" | "营销策略" | "产品发布" | "開発者マーケティング" | "성장 전략"
 ---
 
+
+## 📦 Install
+
+```bash
+npx skills add Gingiris-1031/gingiris-growth-finder
+```
+
+**What you get after installing:**
+- Auto-diagnosis of your growth stage
+- Routes to the right playbook
+- Covers all channels and stages
+
+---
 # Gingiris Growth Finder
 
 > 🌍 **Language / 语言**: [中文](#中文版) | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
@@ -46,10 +75,10 @@ The skill will diagnose three dimensions, then invoke the matching playbook:
 
 | If the user's question is about... | Route to |
 |---|---|
-| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **[gingiris-launch](https://clawhub.ai/user/gingiris/gingiris-launch)** |
-| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **[gingiris-opensource](https://clawhub.ai/user/gingiris/gingiris-opensource)** |
-| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **[gingiris-b2b-growth](https://clawhub.ai/user/gingiris/gingiris-b2b-growth)** |
-| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **[gingiris-aso-growth](https://clawhub.ai/user/gingiris/gingiris-aso-growth)** |
+| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **[gingiris-launch](https://huggingface.co/Gingiris/gingiris-launch)** |
+| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **[gingiris-opensource](https://huggingface.co/Gingiris/gingiris-opensource)** |
+| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **[gingiris-b2b-growth](https://huggingface.co/Gingiris/gingiris-b2b-growth)** |
+| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **[gingiris-aso-growth](https://huggingface.co/Gingiris/gingiris-aso-growth)** |
 
 If the question spans multiple domains (e.g. "I have an open source project that I want to monetize as B2B SaaS"), route to **both** relevant skills and explain the handoff.
 
@@ -143,8 +172,20 @@ Gingiris is Iris Wei's growth consulting practice, built on:
 - 30x #1 on Product Hunt (Manus, Devin, AFFiNE, and others)
 - 150+ AI startups advised on global go-to-market
 
-All four specialist playbooks are open source on GitHub under [github.com/Gingiris-1031](https://github.com/Gingiris-1031) and available as Claude Skills on [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris).
+All four specialist playbooks are open source on GitHub under [github.com/Gingiris-1031](https://github.com/Gingiris-1031) and available as Claude Skills on [huggingface.co/Gingiris](https://huggingface.co/Gingiris).
 
 ---
 
 *Version 1.2.0 — Released 2026-06-02*
+
+
+---
+
+## 🔗 About the Author
+
+**Iris Wei** — Growth consultant for 150+ AI startups. Ex-COO at AFFiNE (69K GitHub stars).
+
+- 🐦 Twitter: [@WeiYipei](https://twitter.com/WeiYipei) — Daily growth tactics
+- 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
+- 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
