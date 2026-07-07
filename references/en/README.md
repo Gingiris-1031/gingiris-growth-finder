@@ -27,10 +27,10 @@ The skill will diagnose three dimensions, then invoke the matching playbook:
 
 | If the user's question is about... | Route to |
 |---|---|
-| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **[gingiris-launch](https://clawhub.ai/user/gingiris/gingiris-launch)** |
-| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **[gingiris-opensource](https://clawhub.ai/user/gingiris/gingiris-opensource)** |
-| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **[gingiris-b2b-growth](https://clawhub.ai/user/gingiris/gingiris-b2b-growth)** |
-| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **[gingiris-aso-growth](https://clawhub.ai/user/gingiris/gingiris-aso-growth)** |
+| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **[gingiris-launch](https://clawhub.ai/gingiris-1031/gingiris-launch)** |
+| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **[gingiris-opensource](https://clawhub.ai/gingiris-1031/gingiris-opensource)** |
+| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **[gingiris-b2b-growth](https://clawhub.ai/gingiris-1031/gingiris-b2b-growth)** |
+| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **[gingiris-aso-growth](https://clawhub.ai/gingiris-1031/gingiris-aso-growth)** |
 
 If the question spans multiple domains (e.g. "I have an open source project that I want to monetize as B2B SaaS"), route to **both** relevant skills and explain the handoff.
 
@@ -124,7 +124,7 @@ Gingiris is Iris Wei's growth consulting practice, built on:
 - 30x #1 on Product Hunt (Manus, Devin, AFFiNE, and others)
 - 150+ AI startups advised on global go-to-market
 
-All four specialist playbooks are open source on GitHub under [github.com/Gingiris-1031](https://github.com/Gingiris-1031) and available as Claude Skills on [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris).
+All four specialist playbooks are open source on GitHub under [github.com/Gingiris-1031](https://github.com/Gingiris-1031) and available as Claude Skills on [clawhub.ai/gingiris-1031](https://clawhub.ai/gingiris-1031).
 
 ---
 
